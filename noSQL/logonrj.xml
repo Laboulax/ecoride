@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Nrjs>
+<Nrj>
+    <Name>Electrique</Name>
+    <Logo>img/Energie/elec.png</Logo>
+</Nrj>
+<Nrj>
+    <Name>Hybride</Name>
+    <Logo>img/Energie/hybrid.png</Logo>
+</Nrj>
+<Nrj>
+    <Name>Diesel</Name>
+    <Logo>img/Energie/diesel.jpg</Logo>
+</Nrj>
+<Nrj>
+    <Name>Essence</Name>
+    <Logo>img/Energie/essence.jpg</Logo>
+</Nrj>
+</Nrjs>

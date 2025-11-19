@@ -1,0 +1,82 @@
+main.recapitulatif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #eef3f7;
+}
+
+.recap-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 500px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 0.01px solid #000
+}
+
+.btn-confirmer {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.btn-confirmer:hover {
+    background-color: #01070c;
+}
+
+.list_book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    gap: 20px;
+}
+
+.table-recap {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+
+.table-recap th {
+    background-color: #f2f2f2;
+    color: #000;
+    font-size: 1.1em;
+    text-align: center;
+    padding: 12px;
+    border: 0.4px solid #000;
+}
+
+.table-recap td {
+    padding: 10px 14px;
+    border: 0.4px solid #000;
+    color: #000;
+    background-color: #fff;
+}
+
+.table-recap tr:nth-child(even) td {
+    background-color: #fafafa;
+}
+
+.table-recap strong {
+    color: #000;
+}
+
+
+.table-recap tr:hover td {
+    background-color: #f0f0f0;
+    transition: background-color 0.2s ease;
+}
