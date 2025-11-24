@@ -274,13 +274,93 @@ header {
 
 }
 
-.bg {
-    background: linear-gradient(to bottom, white, #52eb2c);
-    height: 100vh;
+.flux {
+    width: 100%;
+    padding: 50px 5%;
 }
 
-.flux {
-    padding: 75px
+/* --- Section Hero (core) --- */
+.core {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.core-txt {
+    max-width: 550px;
+}
+
+.main-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #2b7a4b;
+    margin-bottom: 20px;
+}
+
+.main-txt {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #444;
+}
+
+.core img {
+    width: 100%;
+    max-width: 520px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.bloc {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.bloc-pub {
+    padding: 18px;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.08);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+
+.bloc-pub:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.bloc-txt {
+    color: #333;
+}
+
+.bloc-pub h2 {
+    color: #2b7a4b;
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.bloc-pub p {
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+    .core {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-title {
+        font-size: 2.3rem;
+    }
+
+    .main-txt {
+        font-size: 1.1rem;
+    }
 }
 
 
