@@ -1,8 +1,6 @@
 {
-    "require": {
-        "ext-intl": "*",
-        "ext-pdo": "*",
-        "ext-mysqli": "*",
-        "ext-simplexml": "*"
-    }
+  "require": {
+    "php": "^8.1",
+    "ext-intl": "*"
+  }
 }
