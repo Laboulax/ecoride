@@ -1,4 +1,4 @@
-# Projet En Cours de Formation
+# Projet Ecoride
 
 Bonjour,
 
@@ -7,4 +7,4 @@ Dans index, penser à ajouter /studi-ecf-main devant les différents /index.php?
 
 
 
-Vous pouvez lancer le projet via le lien https://studi-ecf-098592859cf4.herokuapp.com/?home
+Vous pouvez lancer le projet via le lien https://ecoridelaboulais-d98b191d090b.herokuapp.com/index.php?home
